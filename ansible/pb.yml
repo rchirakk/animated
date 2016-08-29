@@ -1,0 +1,6 @@
+---
+- hosts: all
+  remote_user: vagrant
+  tasks:
+   - name : check dummy ping
+     ping:
