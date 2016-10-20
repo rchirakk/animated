@@ -25,7 +25,7 @@ type dnsWriter struct {
 
 func markLog() {
 	if pc, _, l, ok := runtime.Caller(1); ok {
-		log.Printf("==== marker %+v@:%d ====", runtime.FuncForPC(pc).Name(), l)
+		log.Printf("==== %+v@:%d ====", runtime.FuncForPC(pc).Name(), l)
 	} else {
 		log.Printf("======== unknwon ========")
 	}
