@@ -1,0 +1,15 @@
+sync-forked branch
+=================== 
+git fetch upstream
+git rebase upstream/master
+git status
+git push -f origin master
+
+
+rebase-branch with upstream
+===========================
+git remote add upstream https://github.com/name/project.git
+git remote -v
+git fetch upstream
+git rebase upstream/master
+git push -f origin <branch>
