@@ -4,7 +4,7 @@ import "fmt"
 import "log"
 import "io/ioutil"
 import "github.com/golang/protobuf/proto"
-import pb "github.com/rchirakk/animated/golang/grpc/addrBook"
+import pb "github.com/rchirakk/animated/golang/protobuf/addrBook"
 
 var fileName = "serialized"
 
