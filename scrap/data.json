@@ -1,0 +1,36 @@
+[
+    {
+        "address": "1063 Morse Ave",
+        "city": "Sunnyvale",
+        "link": [
+            {
+                "type": [
+                    "studio",
+                    "1bed 1bath"
+                ],
+                "url": "https://www.missionpointebywindsor.com/availableunits.aspx?myOlePropertyId=422086&floorPlans=1914339"
+            },
+            {
+                "type": [
+                    "1bed 1bath"
+                ],
+                "url": "https://www.missionpointebywindsor.com/availableunits.aspx?myOlePropertyId=422086&floorPlans=1914340"
+            },
+            {
+                "type": [
+                    "2bed 1bath"
+                ],
+                "url": "https://www.missionpointebywindsor.com/availableunits.aspx?myOlePropertyId=422086&floorPlans=1914341"
+            },
+            {
+                "type": [
+                    "2bed 2bath"
+                ],
+                "url": "https://www.missionpointebywindsor.com/availableunits.aspx?myOlePropertyId=422086&floorPlans=1914342"
+            }
+        ],
+        "name": "Mission Pointe",
+        "state": "California",
+        "zipcode": "94089"
+    }
+]

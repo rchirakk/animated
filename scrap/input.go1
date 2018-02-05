@@ -1,0 +1,23 @@
+package main
+
+import "io/ioutil"
+
+type aptData struct {
+     	name string
+	address string
+	city  string
+	state string
+	zipcode string
+
+}
+
+func parse(fname string) ([]aptData, error){
+
+
+	data, err := ioutil.ReadFile(fname)
+	if err != nil {
+
+	}
+
+
+}
